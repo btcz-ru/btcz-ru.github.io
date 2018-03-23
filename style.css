@@ -1,0 +1,59 @@
+.exLink {color: black;}
+.miningImg {width: 24px;}
+.rowb p {font-weight:bold;}
+.bold {font-weight:bold;}
+.bold_red {font-weight:bold; color:red;}
+
+.trans {margin: 0 auto; width:350px; padding-bottom:60px;}
+.lang {font-weight:bold; margin:4px; border:1px solid grey; border-radius:4px; background: #fff; float: left; width: 100px; height: 50px; line-height:50px; text-align:center;}
+
+.conf_for {background:#fff; width:70%; float:left; padding:5px; margin-bottom:10px; border:1px solid black; font-size:14px; font-weight:normal;}
+.conf_save {background:#fff; width:30%; float:left; padding:5px; padding-right:30px; text-align:right; margin-bottom:10px; border:1px solid black; font-size:14px; font-weight:normal;}
+
+
+.batnik {
+display:block; 
+border:1px solid black; 
+width:100%; 
+padding:5px;
+font-size:12px;
+font-weight:normal;
+margin-bottom:20px;
+background: #fff;
+}
+
+
+#wrap{
+display: none;
+opacity: 0.8;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+padding: 16px;
+background-color: rgba(1, 1, 1, 0.725);
+z-index: 100;
+overflow: auto;
+}
+ 
+#window{
+width: 800px;
+height: 850px;
+margin: 0 auto;
+display: none;
+background: #e8e8e8;
+z-index: 200;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+padding: 16px;
+}
+ 
+.close{
+margin-left: 364px;
+margin-top: 4px;
+cursor: pointer;
+}
